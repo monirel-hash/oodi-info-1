@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.welcome-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  margin-bottom: 15px;
+  flex: 0 0 auto; /* Prevent the logo image from growing or shrinking */
+  margin-right: 20px; /* Adjust the spacing between the logo and the carousel */
+}
+
+.carousel-container {
+  flex: 1; /* Allow the carousel to take up remaining space */
+}
+#form{
+  float: right;
+}
+#navbarNav{
+  float: left;
+}
+
+/* Place the left section on the left side */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Place the right section on the right side */
+.right-section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust the spacing and alignment of the navigation links */
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0;
+}
+
+/* Align the logo image */
+.logo-image {
+  width: 350px;
+  height: auto;
+}
+
+/* Adjust the positioning of the carousel container */
+.carousel-container {
+  margin-top: 20px;
+}
+
+/* Style the search form */
+.form-inline {
+  margin-left: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-append {
+  margin-left: 10px;
+}
+
+/* Adjust the positioning of the header content */
+.header-content {
+  margin-top: 20px;
+}
+
