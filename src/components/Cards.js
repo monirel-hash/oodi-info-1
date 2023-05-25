@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import '../styles/Cards.css'; // Import your custom CSS file for additional styling
+import '../styles/Cards.css'; 
 
 const Cards = () => {
   return (

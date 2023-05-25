@@ -7,6 +7,7 @@ import References from './pages/References';
 import Partners from './pages/Partners';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import "./App.css"
 
 const App = () => {
   return (

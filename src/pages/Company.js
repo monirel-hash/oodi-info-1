@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import '../styles/Company.css'; // Import your custom CSS file for additional styling
+import '../styles/Company.css'; 
 
 const Company = () => {
   return (

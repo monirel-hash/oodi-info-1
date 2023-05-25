@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import '../styles/References.css'; // Import your custom CSS file for additional styling
+import '../styles/References.css'; 
 
 
 const References = () => {

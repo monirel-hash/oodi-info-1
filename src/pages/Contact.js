@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import '../styles/Contact.css'; // Import the CSS file for styling
+import '../styles/Contact.css';
 
 const Contact = () => {
   return (
