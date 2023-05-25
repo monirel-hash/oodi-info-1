@@ -7,7 +7,7 @@ const Company = () => {
     <div className="container">
       <Fade left>
         <section>
-          <h2 className="mb-4">A Propos de Nous</h2>
+          <h2 className="mb-4 text-bold">A Propos de Nous</h2>
           <div className="row">
             <div className="col-md-6">
               <img

@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -20,11 +21,6 @@ code {
 }
 
 
-
-.header-content {
-  display: flex;
-  align-items: center;
-}
 
 .logo-image {
   margin-bottom: 15px;

@@ -8,7 +8,7 @@ const Partners = () => {
     <div className="container">
       <Fade left>
         <section>
-          <h2 className="mb-4">Nos Partenaires</h2>
+          <h2 className="mb-4 text-bold">Nos Partenaires</h2>
           <div>
             <p>
               Conçu avec TOWeb, le logiciel de création de sites web. Créez votre site web ou votre boutique en ligne responsive sans code et sans abonnement. Avec la liberté de choisir votre hébergement pour le publier où vous voulez.
