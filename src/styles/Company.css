@@ -1,0 +1,17 @@
+/* Add additional styling or overrides as per your requirement */
+
+@media (max-width: 767px) {
+    .company .row {
+      flex-direction: column;
+    }
+  
+    .company .col-md-6 {
+      margin-bottom: 20px;
+    }
+  
+    .company img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

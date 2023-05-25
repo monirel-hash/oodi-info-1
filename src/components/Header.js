@@ -1,70 +1,56 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Fade } from 'react-reveal';
+import '../styles/Header.css'; // Import your custom CSS file for additional styling
 
 const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
-          <div className="navbar-collapse">
-            <div className="left-section">
-              <Link className="navbar-brand" to="/">
-                OODI-INFO
-              </Link>
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">
-                    Accueil
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/societe">
-                    Société
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/references">
-                    Références
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/partenaires">
-                    Nos Partenaires
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="right-section">
-              <form className="form-inline">
-                <div className="input-group">
-                  <input type="text" className="form-control" placeholder="Rechercher" />
-                  <div className="input-group-append">
-                    <button className="btn btn-primary" type="button">
-                      Rechercher
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">OODI-INFO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/societe">Société</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link"  href="/references">
+                  Références
+                </a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/partenaires">Nos Partenaires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search" />
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Rechercher</button>
+            </form>
           </div>
         </div>
       </nav>
-      <div className="header-content container mt-5 d-flex justify-content-between">
+
+
+      <div className="header-content container mt-5 d-flex flex-column justify-content-center align-items-center">
         <img
           src="https://www.oodi-info.com/_frame/logo4-toweb.png"
           alt="Logo"
           className="logo-image"
         />
         <div className="carousel-container">
-          <Carousel showThumbs={false} width="400px" autoPlay>
+          <Carousel showThumbs={false} width="100%" autoPlay>
             <Fade right>
               <img
                 src="https://www.oodi-info.com/_frame/endpoint-protector-2.jpg"

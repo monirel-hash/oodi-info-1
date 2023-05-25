@@ -1,0 +1,8 @@
+/* Add additional styling or overrides as per your requirement */
+
+@media (max-width: 767px) {
+    .home-container {
+      padding: 10px;
+    }
+  }
+  

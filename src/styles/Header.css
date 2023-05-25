@@ -1,0 +1,22 @@
+/* Add additional styling or overrides as per your requirement */
+
+@media (max-width: 767px) {
+    .header-content.container {
+      padding: 10px;
+    }
+    
+    .header-content.container .logo-image {
+      width: 80%;
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    
+    .carousel-container {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+.navbar{
+  height: 5%;
+}

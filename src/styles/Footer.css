@@ -1,0 +1,17 @@
+/* Add additional styling or overrides as per your requirement */
+
+@media (max-width: 767px) {
+    .footer .row {
+      flex-direction: column;
+    }
+    
+    .footer .col-md-6 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .footer .col-md-6 p {
+      margin: 0;
+    }
+  }
+  

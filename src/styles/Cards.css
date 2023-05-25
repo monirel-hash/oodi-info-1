@@ -1,0 +1,19 @@
+/* Add additional styling or overrides as per your requirement */
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .cards-container {
+      flex-wrap: wrap;
+    }
+    
+    .cards-container > .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
