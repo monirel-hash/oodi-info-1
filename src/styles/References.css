@@ -1,0 +1,17 @@
+/* Add additional styling or overrides as per your requirement */
+
+@media (max-width: 767px) {
+    .references .row {
+      flex-direction: column;
+    }
+  
+    .references .col-md-6 {
+      margin-bottom: 20px;
+    }
+  
+    .references img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

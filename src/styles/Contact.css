@@ -1,0 +1,52 @@
+.contact-section {
+  /* General styles for the contact section */
+}
+
+.map-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  /* Styles for the map container */
+}
+
+.form-container {
+  /* Styles for the form container */
+}
+
+.contact-form {
+  /* Styles for the contact form */
+}
+
+.form-group {
+  /* Styles for the form group */
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact-details {
+  flex-basis: 50%;
+  /* Styles for the contact details section */
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+  .map-form-container {
+    flex-direction: row;
+  }
+
+  .map-container {
+    flex-basis: 50%;
+  }
+
+  .form-container {
+    flex-basis: 50%;
+  }
+}

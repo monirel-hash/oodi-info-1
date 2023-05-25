@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
+import '../styles/Cards.css'; // Import your custom CSS file for additional styling
 
 const Cards = () => {
   return (
     <Container>
-      <div className="d-flex justify-content-between">
-        <Card style={{ width: '22rem' }}>
+      <div className="cards-container">
+        <Card>
           <Card.Img variant="top" src="https://www.oodi-info.com/_media/img/small/picffc6.tmp.jpg" />
           <Card.Body>
             <Card.Title>Infrastructure Système</Card.Title>
@@ -15,7 +16,7 @@ const Cards = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: '22rem' }}>
+        <Card>
           <Card.Img variant="top" src="https://www.oodi-info.com/_media/img/small/pic92bc.tmp.jpg" />
           <Card.Body>
             <Card.Title>Protection Des Données</Card.Title>
@@ -24,7 +25,7 @@ const Cards = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: '22rem' }}>
+        <Card>
           <Card.Img variant="top" src="https://www.oodi-info.com/_media/img/small/pic348b.tmp.jpg" />
           <Card.Body>
             <Card.Title>Analyse Des Données</Card.Title>
