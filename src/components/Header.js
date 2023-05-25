@@ -8,22 +8,15 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style={{borderRadius:'0px'}}>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style={{ borderRadius: "0px" }}
+      >
         <div class="container d-flex justify-content-between">
           <Link class="navbar-brand" to="/">
             OODI-INFO
           </Link>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#myNavbar"
-            aria-controls="myNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
@@ -61,6 +54,17 @@ const Header = () => {
               aria-label="Search"
             />
           </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+            aria-controls="myNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
       </nav>
 
